@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bodyWrapper">
+    <div class="wrapper">
+      <div class="palyer0Wrap active">
+        <center>
+          <h1 class="playerTitle">Player 1</h1>
+          <p class="totalScore0">20</p>
+          <div class="currentScoreWrap">
+            <h2 class="currentTitle">Current</h2>
+            <p class="currentScore0">4</p>
+          </div>
+        </center>
+      </div>
+      <div class="palyer1Wrap">
+        <center>
+          <h1 class="playerTitle">Player 2</h1>
+          <p class="totalScore1">20</p>
+          <div class="currentScoreWrap">
+            <h2 class="currentTitle">Current</h2>
+            <p class="currentScore1">4</p>
+          </div>
+        </center>
+      </div>
+      <div class="mainCell">
+        <div class="cells cell-P0-3"><p class="cellNum">3</p></div>
+        <div class="cells cell-P0-2"><p class="cellNum">2</p></div>
+        <div class="cells cell-P0-1"><p class="cellNum">1</p></div>
+        <div class="cells cellinit cellWinDiv"><p class="cellNum"><Strong>0</Strong></p></div>
+        <div class="cells cell-P1-1"><p class="cellNum">1</p></div>
+        <div class="cells cell-P1-2"><p class="cellNum">2</p></div>
+        <div class="cells cell-P1-3"><p class="cellNum">3</p></div>
+      </div>
+      <img src="images/dice-6.png" alt="" class="dice" />
+      <button class="btn newGame">🔄 New Game</button>
+      <button class="btn rollDice">🎲 Roll Dice</button>
+      <button class="btn holdScore">💾 Hold</button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
